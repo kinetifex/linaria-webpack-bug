@@ -1,0 +1,28 @@
+{
+  "name": "linaria-webpack-bug",
+  "version": "0.0.0",
+  "description": "Example of import bug with Linaria",
+  "main": "src/index.js",
+  "scripts": {
+    "webpack": "webpack",
+    "cli": "linaria -o dist --source-root src src/index.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/preset-react": "^7.14.5",
+    "@linaria/babel-preset": "3.0.0-beta.13",
+    "@linaria/core": "3.0.0-beta.13",
+    "@linaria/cli": "3.0.0-beta.13",
+    "@linaria/react": "3.0.0-beta.13",
+    "@linaria/shaker": "3.0.0-beta.13",
+    "@linaria/webpack-loader": "3.0.0-beta.13",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^6.4.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "mini-css-extract-plugin": "^2.4.2",
+    "webpack": "^5.59.0",
+    "webpack-cli": "^4.9.1"
+  }
+}
